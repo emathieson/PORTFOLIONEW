@@ -4,13 +4,14 @@
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
     #main {
+        overflow-x: hidden;
         display: none;
     }
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1200px) {
     #mobileWarning {
         display: none;
     }
@@ -129,7 +130,7 @@ h7 {
 
 #aboutMeText {
     width: 80%;
-    font-size: 1.7vh;
+    font-size: 1.6vh;
 }
 
 #hireMeText {
@@ -184,7 +185,7 @@ h7 {
 }
 
 #main {
-    min-width: 1300px;
+/*    min-width: 1300px;*/
     overflow-x: hidden;
 }
 
