@@ -1,0 +1,308 @@
+﻿body {
+    background-color: ghostwhite;
+    font-family: "Rubik";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#main {
+    position: absolute;
+}
+
+#left {
+    background-color: #49787f;
+    min-width: 260px;
+    min-height: 600px;
+}
+
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: ghostwhite;
+    font-size: 22px;
+    letter-spacing: .6px;
+}
+
+h3 {
+    padding-top: 10vh;
+    text-align: right;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+h6 {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+h7 {
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+
+#nameTitle {
+    padding-top: 4.5vh;
+    padding-bottom: 4vh;
+}
+
+#emily {
+    width: 150px;
+    border-radius: 75px;
+    border: solid 3px #333;
+    box-shadow: 0px 4px 4px #4E7072;
+}
+
+#miniIntro {
+    padding-top: 4.5vh;
+    padding-bottom: 2vh;
+}
+
+#mini {
+    color: ghostwhite;
+    font-size: 13px;
+    text-align: center;
+    max-width: 80%;
+    line-height: 150%
+}
+
+#icon {
+    width: 30px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-bottom: 1vh;
+}
+
+#leftNav {
+    margin-top: 6vh;
+}
+
+.nav-link {
+    color: ghostwhite;
+    font-size: 14px;
+    margin-top: 2vh;
+    font-weight: 400;
+    letter-spacing: .8px;
+}
+
+.nav-link:hover {
+    color: #1a4b4d;
+}
+
+.activeLink {
+    color: #1a272b;
+    font-weight: 600;
+}
+
+
+#aboutMeHeader {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#aboutMeText {
+    width: 80%;
+    font-size: 12px;
+}
+
+#hireMeText {
+    width: 60%;
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#hireMeText2 {
+    width: 80%;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#aboutMeRight, #aboutMeLeft {
+/*    background-color: #f2f2f2;*/
+    height: 45vh;
+    min-height: 350px;
+    margin: 0px;
+}
+
+#portyPort {
+    height: 45vh;
+    min-height: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ContactButton, #ResumeButton, #GitHubButton, #PortfolioButton {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #49787f;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: ghostwhite;
+    border-radius: 2px;
+    border: none !important;
+    box-shadow: 0px 2px 2px #4E7072;
+}
+
+    #ContactButton:hover, #ResumeButton:hover, #GitHubButton:hover, #PortfolioButton:hover {
+        background-color: #1a4b4d;
+        cursor: pointer;
+    }
+
+#ContactButton:active, #ResumeButton:active, #GitHubButton:active, #PortfolioButton:active {
+    transform: translateY(2px);
+}
+
+#main {
+    min-width: 1300px;
+    overflow-x: hidden;
+}
+
+
+#aboutMeBottom {
+    height: 55vh;
+    min-height: 420px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#goop {
+    padding: 0px;
+    margin: 0px;
+}
+
+#skillsHeader {
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#skillsList {
+    margin: 10px;
+}
+
+#listHeader {
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+li {
+    font-weight: 400;
+    list-style-type: none;
+    text-align:center;
+    font-size: 14px;
+    margin: 4px;
+}
+
+#contactMain {
+    text-align: center;
+}
+
+#contactHeader {
+    margin: 20vh;
+}
+
+#email {
+    margin: 5vh;
+}
+
+#sillyEmoji {
+    margin-top: 10vh;
+    font-size: 40px;
+}
+
+#experienceSection {
+    margin: 0px;
+    padding: 0px;
+}
+
+#eduHeader, #expHeader, #portMain {
+    padding-left: 3vh;
+    padding-top: 4vh;
+}
+
+#eduMini, #expMini {
+    padding-left: 8vh;
+}
+
+#portfolioSection {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#pathDesc {
+    margin-left: 5vh;
+}
+
+#pText {
+    margin-left: 5.5vh;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+#deets {
+    width: 90%;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+#PortfolioButton {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+#portSection {
+    margin-left: 50px;
+    padding: 0px;
+    margin-top: 20px;
+    background-color: gainsboro;
+    /*min-width: 900px;*/
+    overflow-x: hidden;
+}
+
+#project {
+    overflow-x: hidden;
+}
+
+#portHeader {
+    padding-top: 20px;
+    margin: 0px;
+}
+
+#imgPort {
+    margin-top: 20px;
+    width: 190px;
+    border-radius: 5px;
+}
